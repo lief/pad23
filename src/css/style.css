@@ -302,6 +302,7 @@ a:focus {
   max-width: 80px;
   height: auto;
   border-radius: 100%;
+  align-self: start;
 }
 
 .blog-post header h1 {
