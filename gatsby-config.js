@@ -28,7 +28,7 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://wpgatsbydemo.wpengine.com/graphql`,
+          `https://admin.pad23.com/graphql`,
       },
     },
 
@@ -75,6 +75,6 @@ module.exports = {
      * this (optional) plugin enables Progressive Web App + Offline functionality
      * To learn more, visit: https://gatsby.dev/offline
      */
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
