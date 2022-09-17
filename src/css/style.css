@@ -334,3 +334,8 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+:root {
+	background: linear-gradient(to bottom, powderblue, white 16rem);
+	min-height: 100vh;
+}
