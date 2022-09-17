@@ -54,7 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #866b3c;
+  --color-primary: magenta;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -336,6 +336,14 @@ a:focus {
 }
 
 :root {
-	background: linear-gradient(to bottom, powderblue, white 16rem);
+	background: linear-gradient(to bottom, yellow, white 16rem);
 	min-height: 100vh;
+}
+
+.global-header a {
+	color: inherit;
+}
+
+.bio-avatar {
+	mix-blend-mode: luminosity;
 }
