@@ -62,7 +62,7 @@ module.exports = {
         short_name: `pad23`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#866b3c`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
