@@ -54,7 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: magenta;
+  --color-primary: darkcyan;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -336,7 +336,7 @@ a:focus {
 }
 
 :root {
-	background: linear-gradient(to bottom, yellow, white 16rem);
+	background: linear-gradient(to bottom, lightyellow, white 16rem);
 	min-height: 100vh;
 }
 
